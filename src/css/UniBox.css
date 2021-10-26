@@ -1,0 +1,34 @@
+.unibox{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.unibox:hover{
+    border: 1px solid gray;
+}
+
+.unibox_info{
+    display: flex;
+    align-items: center;
+}
+
+.unibox_info > h5{
+    color: rgb(129, 129, 129);
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+.unibox_uni{
+    display: flex;
+    margin-top: 8px;
+}
+
+.unibox_uni > p{
+    color: gray;
+    font-weight: bold;
+    font-size: large;
+}
